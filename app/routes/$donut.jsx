@@ -14,7 +14,7 @@ export const loader = async ({ params }) => {
             catalogue(language: $language, path: $path) {
               path
               name
-          
+
               ... on Product {
                 defaultVariant {
                   firstImage {
